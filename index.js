@@ -49,7 +49,7 @@ function renderPage(name) {
     }
 }
 
-renderPage("Joseph Ducreux")
+renderPage("Gustave Courbet")
 
 
 function renderLike(like){
@@ -65,7 +65,7 @@ function renderLike(like){
 }
 
 
-heartBtn.addEventListener("click", function(){
+heartBtn.addEventListener("dblclick", function(){
         renderLike(152)
         
 })
